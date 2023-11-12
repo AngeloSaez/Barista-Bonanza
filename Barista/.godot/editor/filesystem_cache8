@@ -1,74 +1,72 @@
-2a60927148abd1d33b818b535e306557
-::res://::1699822338
-Button_.gd::GDScript::-1::1699387435::0::1::::<>Button<>::
-Control_.gd::GDScript::-1::1699817746::0::1::::<>Control<>::
-icon.svg::CompressedTexture2D::7675732505538084129::1698024309::1698024609::1::::<><>::
-Level1.tscn::PackedScene::3866705964565654730::1699822338::0::1::::<><>::uid://b6ocm6b3lr6um<>uid://ny4a6vewb77m<>uid://cpy5v85jni8gd
-main.tscn::PackedScene::5115460187777557270::1699822401::0::1::::<><>::uid://c57d477i33wfy
-NewGame.gd::GDScript::-1::1699822338::0::1::::<>Button<>::
-start_menu.tscn::PackedScene::6944802434241600698::1699821460::0::1::::<><>::uid://co30v32vs7pla<>res://Button_.gd<>uid://c1e826puusovi<>res://Control_.gd<>uid://salyiohohg76
-::res://Assets/::1699821318
-::res://Assets/CoffeeShop/::1699821318
-3DCoffeeShop.png::CompressedTexture2D::5814844695266490290::1698426835::1699821316::1::::<><>::
-ShopCounter.jpg::CompressedTexture2D::4591320619597588648::1699820669::1699821318::1::::<><>::
-::res://Assets/DownloadedAssets/::1698426018
-License.txt::TextFile::-1::1698425903::0::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/::1698425903
-::res://Assets/DownloadedAssets/Clouds/Clouds 1/::1699061032
-1.png::CompressedTexture2D::8284255361652415913::1698425902::1699061032::1::::<><>::
-2.png::CompressedTexture2D::2556902903043688918::1698425902::1699061032::1::::<><>::
-3.png::CompressedTexture2D::3545949788948193901::1698425902::1699061032::1::::<><>::
-4.png::CompressedTexture2D::982789157082189886::1698425902::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/Clouds 2/::1699061032
-1.png::CompressedTexture2D::3743439418179533670::1698425902::1699061032::1::::<><>::
-2.png::CompressedTexture2D::1852011230627591033::1698425902::1699061032::1::::<><>::
-3.png::CompressedTexture2D::8967689782607376817::1698425902::1699061032::1::::<><>::
-4.png::CompressedTexture2D::2260023470217261960::1698425902::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/Clouds 3/::1699061032
-1.png::CompressedTexture2D::3973560027235651588::1698425902::1699061032::1::::<><>::
-2.png::CompressedTexture2D::7934675089068560659::1698425902::1699061032::1::::<><>::
-3.png::CompressedTexture2D::579381358856223077::1698425902::1699061032::1::::<><>::
-4.png::CompressedTexture2D::7640836338046414485::1698425902::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/Clouds 4/::1699061032
-1.png::CompressedTexture2D::4234064773318447020::1698425902::1699061032::1::::<><>::
-2.png::CompressedTexture2D::3236728870053604742::1698425902::1699061032::1::::<><>::
-3.png::CompressedTexture2D::7357744845524892757::1698425902::1699061032::1::::<><>::
-4.png::CompressedTexture2D::7963806825760267599::1698425902::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/Clouds 5/::1699061032
-1.png::CompressedTexture2D::6608062342520088986::1698425902::1699061032::1::::<><>::
-2.png::CompressedTexture2D::3554785522769964238::1698425902::1699061032::1::::<><>::
-3.png::CompressedTexture2D::8579162147580001688::1698425902::1699061032::1::::<><>::
-4.png::CompressedTexture2D::1264110373609834351::1698425902::1699061032::1::::<><>::
-5.png::CompressedTexture2D::8196982840936014689::1698425902::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/Clouds 6/::1699061032
-1.png::CompressedTexture2D::4976679558733465739::1698425902::1699061032::1::::<><>::
-2.png::CompressedTexture2D::8606205638783248808::1698425902::1699061032::1::::<><>::
-3.png::CompressedTexture2D::2870190865506763946::1698425902::1699061032::1::::<><>::
-4.png::CompressedTexture2D::5215431814625555187::1698425902::1699061032::1::::<><>::
-5.png::CompressedTexture2D::6888246483832078071::1698425903::1699061032::1::::<><>::
-6.png::CompressedTexture2D::2542489093660150273::1698425903::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/Clouds 7/::1699061032
-1.png::CompressedTexture2D::6219850766153103849::1698425903::1699061032::1::::<><>::
-2.png::CompressedTexture2D::4293269255598211818::1698425903::1699061032::1::::<><>::
-3.png::CompressedTexture2D::4756016089979341863::1698425903::1699061032::1::::<><>::
-4.png::CompressedTexture2D::8040126768322735351::1698425903::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/Clouds/Clouds 8/::1699061032
-1.png::CompressedTexture2D::5213482889771841598::1698425903::1699061032::1::::<><>::
-2.png::CompressedTexture2D::1913646744776031375::1698425903::1699061032::1::::<><>::
-3.png::CompressedTexture2D::1346612548197512121::1698425903::1699061032::1::::<><>::
-4.png::CompressedTexture2D::7635518773656327856::1698425903::1699061032::1::::<><>::
-5.png::CompressedTexture2D::6781038827571724643::1698425903::1699061032::1::::<><>::
-6.png::CompressedTexture2D::6747203913320186754::1698425903::1699061032::1::::<><>::
-::res://Assets/DownloadedAssets/PSD/::1698425903
-::res://Assets/Extras/::1699821186
-Chemex.jpg::CompressedTexture2D::3075159444448986606::1699819078::1699821094::1::::<><>::
-ChemexFront.jpg::CompressedTexture2D::8091755815854384141::1699818102::1699821099::1::::<><>::
-Counter.jpg::CompressedTexture2D::929482792817311797::1699820554::1699821128::1::::<><>::
-FrontChemex.jpg::CompressedTexture2D::7875952343351494025::1699820250::1699821136::1::::<><>::
-FrontChemex.png::CompressedTexture2D::8245087409925420403::1699820278::1699821146::1::::<><>::
-Shop.jpg::CompressedTexture2D::6138187284386318356::1699819928::1699821186::1::::<><>::
-::res://Assets/PourOver/::1699821297
-Chemex.png::CompressedTexture2D::5877079879550450435::1699820893::1699821291::1::::<><>::
-ChemexPourOver.png::CompressedTexture2D::6327358151600780631::1699819465::1699821294::1::::<><>::
-Kettle.png::CompressedTexture2D::963762487058048756::1699819672::1699821297::1::::<><>::
-::res://Levels/::1699821512
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699830881
+icon.svg::CompressedTexture2D::7675732505538084129::1699824204::1699829364::1::::<><>::
+::res://Assets/::1699824204
+::res://Assets/CoffeeShop/::1699824204
+3DCoffeeShop.png::CompressedTexture2D::5814844695266490290::1699824204::1699824204::1::::<><>::
+ShopCounter.jpg::CompressedTexture2D::4591320619597588648::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/::1699824204
+License.txt::TextFile::-1::1699824204::0::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/::1699824204
+::res://Assets/DownloadedAssets/Clouds/Clouds 1/::1699824204
+1.png::CompressedTexture2D::8284255361652415913::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::2556902903043688918::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::3545949788948193901::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::982789157082189886::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 2/::1699824204
+1.png::CompressedTexture2D::3743439418179533670::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::1852011230627591033::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::8967689782607376817::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::2260023470217261960::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 3/::1699824204
+1.png::CompressedTexture2D::3973560027235651588::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::7934675089068560659::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::579381358856223077::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::7640836338046414485::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 4/::1699824204
+1.png::CompressedTexture2D::4234064773318447020::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::3236728870053604742::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::7357744845524892757::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::7963806825760267599::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 5/::1699824204
+1.png::CompressedTexture2D::6608062342520088986::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::3554785522769964238::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::8579162147580001688::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::1264110373609834351::1699824204::1699824204::1::::<><>::
+5.png::CompressedTexture2D::8196982840936014689::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 6/::1699824204
+1.png::CompressedTexture2D::4976679558733465739::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::8606205638783248808::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::2870190865506763946::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::5215431814625555187::1699824204::1699824204::1::::<><>::
+5.png::CompressedTexture2D::6888246483832078071::1699824204::1699824204::1::::<><>::
+6.png::CompressedTexture2D::2542489093660150273::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 7/::1699824204
+1.png::CompressedTexture2D::6219850766153103849::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::4293269255598211818::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::4756016089979341863::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::8040126768322735351::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/Clouds/Clouds 8/::1699824204
+1.png::CompressedTexture2D::5213482889771841598::1699824204::1699824204::1::::<><>::
+2.png::CompressedTexture2D::1913646744776031375::1699824204::1699824204::1::::<><>::
+3.png::CompressedTexture2D::1346612548197512121::1699824204::1699824204::1::::<><>::
+4.png::CompressedTexture2D::7635518773656327856::1699824204::1699824204::1::::<><>::
+5.png::CompressedTexture2D::6781038827571724643::1699824204::1699824204::1::::<><>::
+6.png::CompressedTexture2D::6747203913320186754::1699824204::1699824204::1::::<><>::
+::res://Assets/DownloadedAssets/PSD/::1699824204
+::res://Assets/Extras/::1699824204
+Chemex.jpg::CompressedTexture2D::3075159444448986606::1699824204::1699824204::1::::<><>::
+ChemexFront.jpg::CompressedTexture2D::8091755815854384141::1699824204::1699824204::1::::<><>::
+Counter.jpg::CompressedTexture2D::929482792817311797::1699824204::1699824204::1::::<><>::
+FrontChemex.jpg::CompressedTexture2D::7875952343351494025::1699824204::1699824204::1::::<><>::
+FrontChemex.png::CompressedTexture2D::8245087409925420403::1699824204::1699824204::1::::<><>::
+Shop.jpg::CompressedTexture2D::6138187284386318356::1699824204::1699824204::1::::<><>::
+::res://Assets/PourOver/::1699824204
+Chemex.png::CompressedTexture2D::5877079879550450435::1699824204::1699824204::1::::<><>::
+ChemexPourOver.png::CompressedTexture2D::6327358151600780631::1699824204::1699824204::1::::<><>::
+Kettle.png::CompressedTexture2D::963762487058048756::1699824204::1699824204::1::::<><>::
+::res://Levels/::1699824204
+Level1.tscn::PackedScene::3866705964565654730::1699824204::0::1::::<><>::uid://b6ocm6b3lr6um
+::res://TitleScreen/::1699829966
+NewGame.gd::GDScript::-1::1699829944::0::1::::<>Button<>::
+TitleScreen.tscn::PackedScene::6944802434241600698::1699829966::0::1::::<><>::res://TitleScreen/NewGame.gd<>uid://c1e826puusovi::::res://Assets/DownloadedAssets/Clouds/Clouds 5/1.png<>uid://co30v32vs7pla::::res://Assets/CoffeeShop/3DCoffeeShop.png<>uid://salyiohohg76::::res://Assets/DownloadedAssets/Clouds/Clouds 5/4.png
