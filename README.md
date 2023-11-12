@@ -3,11 +3,12 @@ Senior design
 
 ## Installation
 
-Install Godot (https://godotengine.org/) version 4.1 or later
+- Install Godot (https://godotengine.org/) version 4.1 or later
+- Once installed you will run it using the installed exe file. Open the project in godot.
 
 ## Branches
 
-Before merging branch with main first merge it with dev_branch. From there dev_branch can be merged with main.
+- Before merging your local branch with main please first merge it with dev_branch. From there we can merge dev_branch with main as larger project markers are hit.
 
 ## Code Layout
 
