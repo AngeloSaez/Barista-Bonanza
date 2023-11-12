@@ -1,6 +1,4 @@
-res://Levels/Level1.tscn
-res://start_menu.tscn
-res://Control_.gd
-res://main.tscn
-res://Level1.tscn
 res://NewGame.gd
+res://TitleScreen/start_menu.tscn
+res://TitleScreen/TitleScreen.tscn
+res://TitleScreen/NewGame.gd
