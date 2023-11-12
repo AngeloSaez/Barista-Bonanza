@@ -1,5 +1,8 @@
+Control
 Button
+ParallaxBackground
+TileMap
+Tree
+Node
 TextureButton
 Label
-TileMap
-ParallaxBackground

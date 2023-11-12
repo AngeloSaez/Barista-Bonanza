@@ -1,11 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://gaje41tmgsw0"]
+[gd_scene load_steps=8 format=3 uid="uid://c57d477i33wfy"]
 
-[ext_resource type="Texture2D" uid="uid://co30v32vs7pla" path="res://Levels/3DCoffeeShop.png" id="1_i5t6i"]
-[ext_resource type="Texture2D" uid="uid://c1e826puusovi" path="res://Levels/DownloadedAssets/Clouds/Clouds 5/1.png" id="2_5vy8y"]
-[ext_resource type="Texture2D" uid="uid://salyiohohg76" path="res://Levels/DownloadedAssets/Clouds/Clouds 5/4.png" id="3_b4bo0"]
+[ext_resource type="Texture2D" uid="uid://co30v32vs7pla" path="res://Assets/CoffeeShop/3DCoffeeShop.png" id="1_vggss"]
+[ext_resource type="Script" path="res://Button_.gd" id="2_u41ml"]
+[ext_resource type="Texture2D" uid="uid://c1e826puusovi" path="res://Assets/DownloadedAssets/Clouds/Clouds 5/1.png" id="3_6gqmg"]
+[ext_resource type="Script" path="res://Control_.gd" id="3_uwkwn"]
+[ext_resource type="Texture2D" uid="uid://salyiohohg76" path="res://Assets/DownloadedAssets/Clouds/Clouds 5/4.png" id="4_5ri2i"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jkmd7"]
-texture = ExtResource("1_i5t6i")
+texture = ExtResource("1_vggss")
 25:3/0 = 0
 26:3/0 = 0
 27:3/0 = 0
@@ -2786,38 +2788,48 @@ metadata/_edit_lock_ = true
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="StartMenu"]
 
-[node name="Button" type="Button" parent="StartMenu"]
-offset_left = 113.0
-offset_top = 190.0
-offset_right = 343.0
-offset_bottom = 262.0
-theme_override_colors/icon_normal_color = Color(0, 0.501961, 0, 1)
-theme_override_colors/icon_pressed_color = Color(0, 0.501961, 0, 1)
-theme_override_colors/icon_hover_color = Color(0, 0.501961, 0, 1)
-theme_override_colors/icon_hover_pressed_color = Color(0, 0.501961, 0, 1)
-theme_override_colors/icon_focus_color = Color(0, 0.501961, 0, 1)
-theme_override_colors/icon_disabled_color = Color(0, 0.501961, 0, 1)
-text = "New Game"
+[node name="Control" type="Control" parent="StartMenu"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 30.0
+offset_top = 12.0
+offset_right = 485.0
+offset_bottom = 555.0
+script = ExtResource("3_uwkwn")
 
-[node name="Button2" type="Button" parent="StartMenu"]
+[node name="NewGame" type="Button" parent="StartMenu/Control"]
+layout_mode = 0
+offset_left = 116.0
+offset_top = 179.0
+offset_right = 344.0
+offset_bottom = 255.0
+focus_neighbor_bottom = NodePath("../ContinueSave")
+text = "New Game"
+metadata/_edit_lock_ = true
+
+[node name="ContinueSave" type="Button" parent="StartMenu/Control"]
+layout_mode = 0
 offset_left = 114.0
 offset_top = 319.0
 offset_right = 343.0
 offset_bottom = 392.0
+focus_neighbor_top = NodePath("../NewGame")
 text = "Continue Save"
+script = ExtResource("2_u41ml")
+metadata/_edit_lock_ = true
 
 [node name="1" type="Sprite2D" parent="."]
 show_behind_parent = true
 position = Vector2(587, 337)
 scale = Vector2(2.125, 2.22222)
-texture = ExtResource("2_5vy8y")
+texture = ExtResource("3_6gqmg")
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
 [node name="3dCoffeeShop" type="Sprite2D" parent="."]
 position = Vector2(779, 319)
 scale = Vector2(0.716797, 0.678711)
-texture = ExtResource("1_i5t6i")
+texture = ExtResource("1_vggss")
 metadata/_edit_lock_ = true
 metadata/_edit_group_ = true
 
@@ -2826,6 +2838,6 @@ show_behind_parent = true
 position = Vector2(1049, -135)
 rotation = -8.49277
 scale = Vector2(0.97914, 1)
-texture = ExtResource("3_b4bo0")
+texture = ExtResource("4_5ri2i")
 metadata/_edit_group_ = true
 metadata/_edit_lock_ = true

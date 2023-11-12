@@ -1,5 +1,6 @@
+res://Levels/Level1.tscn
 res://start_menu.tscn
-res://new_game.gd
-res://world.tscn
-res://Button.gd
-res://TextureButton.gd
+res://Control_.gd
+res://main.tscn
+res://Level1.tscn
+res://NewGame.gd
