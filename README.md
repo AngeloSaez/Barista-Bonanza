@@ -1,5 +1,5 @@
 # Barista-Bonanza
-Senior design
+A 2D cooking game made in the Godot game engine that is focused on being a barista at a coffee shop called Barista Bonanza.
 
 ## Installation
 
@@ -13,7 +13,6 @@ Senior design
 ## Code Layout
 
 - Main scene is **start_menu.tscn**. Other scenes are in Levels.
-  
-## Game Design
 
-A 2D cooking game that is focused on being a barista at a coffee shop called Barista Bonanza.
+## Tips
+- In order to create a non-moving 2D image background add a parralax layer underneath the tilemap.
