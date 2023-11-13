@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hjbkqkubuyoc"
-path="res://.godot/imported/Chemex.png-ece6ddb1e2d7450cc83e22b441395515.ctex"
+uid="uid://cpy5v85jni8gd"
+path="res://.godot/imported/NoFilterChemex.png-af7407f23be41735a6b81e5b32b01035.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/PourOver/Chemex.png"
-dest_files=["res://.godot/imported/Chemex.png-ece6ddb1e2d7450cc83e22b441395515.ctex"]
+source_file="res://Assets/Extras/NoFilterChemex.png"
+dest_files=["res://.godot/imported/NoFilterChemex.png-af7407f23be41735a6b81e5b32b01035.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hjbkqkubuyoc"
-path="res://.godot/imported/Chemex.png-ece6ddb1e2d7450cc83e22b441395515.ctex"
+uid="uid://bebknxa6stcjf"
+path="res://.godot/imported/KettleWithTray.png-1f626570f9bd4dc9b777765aa754d82e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/PourOver/Chemex.png"
-dest_files=["res://.godot/imported/Chemex.png-ece6ddb1e2d7450cc83e22b441395515.ctex"]
+source_file="res://Assets/Extras/KettleWithTray.png"
+dest_files=["res://.godot/imported/KettleWithTray.png-1f626570f9bd4dc9b777765aa754d82e.ctex"]
 
 [params]
 
