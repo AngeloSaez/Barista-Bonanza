@@ -1,7 +1,9 @@
-Control
 Button
+MenuButton
 ParallaxBackground
 TileMap
+ParallaxLayer
+Control
 Tree
 Node
 TextureButton
