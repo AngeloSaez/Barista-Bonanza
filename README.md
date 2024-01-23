@@ -25,4 +25,5 @@ https://baristabonanza.atlassian.net/jira/software/projects/BAR/boards/1?atlOrig
 - When espresso button is pressed you can either get frothed milk, milk, or espresso.
 - The order requests will have different drinks like machiatto or a flat-white. These will require different ratios of the ingredients. 
 - The point calculation of each drink will be hardcoded in and based on the complexity of the drink. Simpler drinks (like plain espresso with a point value of 1) will be worth less points. Points will be subtracted from the drink point total when the drink is made incorrectly. The final round score will be calculated as such:
-	- Round Score = (Drink Point Total) + (Time Orders Completed In - Time Allotted for Round)	*Time is in seconds.*
+	- Round Score = (Drink Point Total) + (Time Orders Completed In - Time Allotted for Round)
+ 	- *Time is in seconds.*
