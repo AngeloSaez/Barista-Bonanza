@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ducvbx34iujjh"
-path="res://.godot/imported/EmptyTavernButton.png-60ce47c984b0546bbb17b73cf304a309.ctex"
+uid="uid://hlj4y2k7mm07"
+path="res://.godot/imported/ContinueSave.png-8536f62d129c2f64d0df4512af9c40a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Buttons/EmptyTavernButton.png"
-dest_files=["res://.godot/imported/EmptyTavernButton.png-60ce47c984b0546bbb17b73cf304a309.ctex"]
+source_file="res://Assets/Extras/ContinueSave.png"
+dest_files=["res://.godot/imported/ContinueSave.png-8536f62d129c2f64d0df4512af9c40a2.ctex"]
 
 [params]
 

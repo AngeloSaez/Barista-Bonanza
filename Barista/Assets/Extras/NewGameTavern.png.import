@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfuvgmjk3skcc"
-path="res://.godot/imported/MenuIconRemovedBackground.png-9f6015735f66454be390ad6d96b83648.ctex"
+uid="uid://dvlpcvwxfq8gg"
+path="res://.godot/imported/NewGameTavern.png-99b8cffddd770b0e833de99bb74b0696.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/DownloadedAssets/MenuIconRemovedBackground.png"
-dest_files=["res://.godot/imported/MenuIconRemovedBackground.png-9f6015735f66454be390ad6d96b83648.ctex"]
+source_file="res://Assets/Extras/NewGameTavern.png"
+dest_files=["res://.godot/imported/NewGameTavern.png-99b8cffddd770b0e833de99bb74b0696.ctex"]
 
 [params]
 

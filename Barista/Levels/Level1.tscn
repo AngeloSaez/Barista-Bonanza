@@ -1,9 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://dp5nfecdmg4d6"]
+[gd_scene load_steps=8 format=3 uid="uid://c27mn5q0qhqns"]
 
 [ext_resource type="Texture2D" uid="uid://of1mocbcy37u" path="res://Assets/CoffeeShop/Counter.jpg" id="1_c56c4"]
 [ext_resource type="Texture2D" uid="uid://21vth6csf5lj" path="res://Assets/PourOver/Kettle.png" id="2_vb5d8"]
 [ext_resource type="Texture2D" uid="uid://hjbkqkubuyoc" path="res://Assets/PourOver/Chemex.png" id="3_11ih4"]
-[ext_resource type="Texture2D" uid="uid://dfuvgmjk3skcc" path="res://Assets/DownloadedAssets/MenuIconRemovedBackground.png" id="4_1am85"]
+[ext_resource type="Texture2D" uid="uid://dfuvgmjk3skcc" path="res://Assets/Buttons/MenuIconRemovedBackground.png" id="4_e8kak"]
 [ext_resource type="Script" path="res://Levels/Button.gd" id="5_u8dnv"]
 [ext_resource type="Texture2D" uid="uid://dciaeac2ttksx" path="res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png" id="6_mmf6m"]
 [ext_resource type="Script" path="res://Levels/StartButton.gd" id="7_3yhaj"]
@@ -41,7 +41,7 @@ offset_top = -1.0
 offset_right = 609.0
 offset_bottom = 415.0
 scale = Vector2(0.179657, 0.195093)
-icon = ExtResource("4_1am85")
+icon = ExtResource("4_e8kak")
 flat = true
 expand_icon = true
 script = ExtResource("5_u8dnv")

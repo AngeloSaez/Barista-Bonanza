@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxkj5a8ryfib5"
-path="res://.godot/imported/Continue Save Tavern.png-69f27f9c6be3a76fe2e0e708f1a8aa49.ctex"
+uid="uid://dfuvgmjk3skcc"
+path="res://.godot/imported/MenuIconRemovedBackground.png-d79ca55db34ba6c390de8da79a308f56.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Buttons/Continue Save Tavern.png"
-dest_files=["res://.godot/imported/Continue Save Tavern.png-69f27f9c6be3a76fe2e0e708f1a8aa49.ctex"]
+source_file="res://Assets/Buttons/MenuIconRemovedBackground.png"
+dest_files=["res://.godot/imported/MenuIconRemovedBackground.png-d79ca55db34ba6c390de8da79a308f56.ctex"]
 
 [params]
 

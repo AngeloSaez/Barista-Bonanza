@@ -1,6 +1,4 @@
 res://TitleScreen/TitleScreen.tscn
 res://TitleScreen/NewGame.gd
-res://Levels/Level1.tscn
 res://CoffeeMaking.tscn
-res://Levels/Button.gd
-res://Levels/StartButton.gd
+res://Levels/Level1.tscn

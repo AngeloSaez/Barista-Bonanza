@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnr57uq4b84v1"
-path="res://.godot/imported/NewGame.png-9f37327503f73901411d1b496ba542e0.ctex"
+uid="uid://ducvbx34iujjh"
+path="res://.godot/imported/EmptyTavernButton.png-29397c6493a7c75504f0541345cf43d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Buttons/NewGame.png"
-dest_files=["res://.godot/imported/NewGame.png-9f37327503f73901411d1b496ba542e0.ctex"]
+source_file="res://Assets/Extras/EmptyTavernButton.png"
+dest_files=["res://.godot/imported/EmptyTavernButton.png-29397c6493a7c75504f0541345cf43d1.ctex"]
 
 [params]
 
