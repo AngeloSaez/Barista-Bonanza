@@ -1,6 +1,9 @@
 # Barista-Bonanza
 A 2D cooking game made in the Godot game engine that is focused on being a barista at a coffee shop called Barista Bonanza.
 
+## Jira
+https://baristabonanza.atlassian.net/jira/software/projects/BAR/boards/1?atlOrigin=eyJpIjoiNjQxODIxZWMzYzEzNDZiOWFjNzFmMTZjMTkxN2U4ZDYiLCJwIjoiaiJ9
+
 ## Installation
 
 - Install Godot (https://godotengine.org/) version 4.1 or later
