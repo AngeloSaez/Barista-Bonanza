@@ -22,6 +22,7 @@ var coffee_types = {
 	"Brewed Coffee": ["Brewed Coffee"],
 	"Iced Coffee": ["Brewed Coffee", "Ice"]
 }
+var customer_names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Henry", "Ivy", "Jack"]
 
 # Ingredients currently added to the coffee
 var current_recipe : Array = []
@@ -84,35 +85,42 @@ func _on_ingredient_button_pressed(button: Button):
 func update_customer_satisfaction(coffee_order, delta):
 	# Decrease satisfaction over time and handle unsatisfied customers
 	var satisfaction_decrease_rate = 1  # Modify this value as needed
-	var order_type = coffee_order["type"]  # Accessing the type of coffee order
-	if order_type in customer_satisfaction:
-		customer_satisfaction[order_type] -= delta * satisfaction_decrease_rate
-		if customer_satisfaction[order_type] <= 0:
+	var order_name = coffee_order["name"]  # Accessing the name of the customer
+	if order_name in customer_satisfaction:
+		customer_satisfaction[order_name] -= delta * satisfaction_decrease_rate
+		if customer_satisfaction[order_name] <= 0:
 			handle_unsatisfied_customer(coffee_order)
+
+
 
 
 func handle_unsatisfied_customer(coffee_order):
 	# Handle the scenario when a customer becomes unsatisfied
-	print("Customer unsatisfied with order:", coffee_order.name)
+	print("Customer unsatisfied with order:", coffee_order["name"])
 	# Implement effects like losing currency or points here
-	customer_satisfaction.erase(coffee_order.name)
+	customer_satisfaction.erase(coffee_order["name"])
+
 
 func prepare_coffee(coffee_type):
 	# Prepare the specified coffee type
 	if coffee_type in coffee_types:
 		print("Preparing", coffee_type, " - Level", current_level)
 		current_recipe = []
-		var timer_value = coffee_types[coffee_type].size() * (level_time_multiplier ** (current_level - 1)) * 2.0  # Increased timer
+		var timer_value = coffee_types[coffee_type].size() * (level_time_multiplier ** (current_level - 1)) * 200  # Increased timer
+		var customer_name = customer_names[randi_range(0, customer_names.size() - 1)]  # Select a random name
 		var coffee_order = {
+			"name": customer_name,
 			"type": coffee_type,
 			"recipe": coffee_types[coffee_type],
 			"time": timer_value,
 			"timer": timer_value
 		}
 		orders_queue.append(coffee_order)
-		customer_satisfaction[coffee_type] = 100  # Set initial satisfaction value
+		customer_satisfaction[customer_name] = 100  # Set initial satisfaction value using the customer's name
 	else:
 		print("Unknown coffee type:", coffee_type)
+
+
 
 func prepare_next_coffee():
 	# Remove existing orders and reset customer satisfaction
@@ -177,13 +185,20 @@ func serve_order(coffee_order):
 
 func update_orders_display():
 	var orders_text = "Orders:\n"
+	
 	for coffee_order in orders_queue:
-		orders_text += "- " + coffee_order["type"] + "\n"
-		# Include ingredients in the order display
-		orders_text += "  Ingredients: " + str(coffee_order["recipe"]) + "\n"
-		# Display the customer satisfaction level
-		orders_text += "  Satisfaction: " + str(int(customer_satisfaction[coffee_order["type"]])) + "\n"
+		var order_name = coffee_order["name"]  # Accessing the name of the customer
+		
+		# Check if satisfaction level is greater than zero
+		if order_name in customer_satisfaction and customer_satisfaction[order_name] > 0:
+			orders_text += "- " + coffee_order["type"] + "\n"
+			# Include ingredients in the order display
+			orders_text += "  Ingredients: " + str(coffee_order["recipe"]) + "\n"
+			# Display the customer satisfaction level
+			orders_text += "  Satisfaction: " + str(int(customer_satisfaction[order_name])) + "\n"
+
 	orders_label.text = orders_text
+
 
 func update_GUI():
 	# Update currency display
