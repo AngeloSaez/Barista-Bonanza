@@ -64,23 +64,86 @@ func _process(delta):
 				prepare_next_coffee()
 
 	update_orders_display()
+	
+func get_ingredients_for_current_level() -> Array:
+	var level_coffee_types = get_ordered_complex_coffee_list(current_level)
+	var level_ingredients = []
+	for coffee_type in level_coffee_types:
+		var ingredients = coffee_types[coffee_type]
+		for ingredient in ingredients:
+			if ingredient not in level_ingredients:
+				level_ingredients.append(ingredient)
+	return level_ingredients
+
 
 func initialize_GUI_elements():
-	# Initialize GUI elements like buttons for ingredients
-	for ingredient in ["Espresso", "Milk", "Foamed Milk", "Chocolate", "Whipped Cream", "Cream", "Vanilla Gelato", "Iced Espresso"]:
+	# Clear existing ingredient buttons if any
+	for button in ingredient_buttons.values():
+		button.queue_free()
+	ingredient_buttons.clear()
+
+	# Get ingredients for the current level
+	var level_ingredients = get_ingredients_for_current_level()
+	
+	var screen_width = get_viewport_rect().size.x
+	var button_width = 120
+	var total_buttons_width = button_width * level_ingredients.size()
+	var spacing = (screen_width - total_buttons_width) / (level_ingredients.size() + 1)
+	var startPos = Vector2(spacing, get_viewport_rect().size.y - 100)  # Adjust Y position
+
+	# Create buttons for each ingredient in the current level
+	for i in range(level_ingredients.size()):
+		var ingredient = level_ingredients[i]
 		var button = Button.new()
 		button.text = ingredient
-		# Connect using the Callable with bind()
+		button.custom_minimum_size = Vector2(120, 40)
+		button.position = startPos + Vector2(spacing * i + button_width * i, 0)
 		button.connect("pressed", self._on_ingredient_button_pressed.bind(button))
 		add_child(button)
 		ingredient_buttons[ingredient] = button
+
+
+	# Additional setup for "Serve Order" and "Clear Recipe" buttons...
+	# Create and setup "Serve Order" button
+	var serve_order_button = Button.new()
+	serve_order_button.text = "Serve Order"
+	serve_order_button.position = Vector2(10, get_viewport_rect().size.y - 200)  # Adjust position as needed
+	serve_order_button.connect("pressed", self._on_serve_order_pressed)
+	add_child(serve_order_button)
+
+	# Create and setup "Clear Recipe" button
+	var clear_recipe_button = Button.new()
+	clear_recipe_button.text = "Restart Coffee"
+	clear_recipe_button.position = Vector2(200, get_viewport_rect().size.y - 200)  # Adjust position as needed
+	clear_recipe_button.connect("pressed", self._on_clear_recipe_pressed)
+	add_child(clear_recipe_button)
 
 func _on_ingredient_button_pressed(button: Button):
 	# Use the button directly to get the ingredient
 	var ingredient = button.text
 	add_ingredient(ingredient)
 
+func _on_serve_order_pressed():
+	# Clone and sort the current recipe for comparison
+	var sorted_current_recipe = current_recipe.duplicate()
+	sorted_current_recipe.sort()
 
+	# Attempt to serve the current recipe
+	for coffee_order in orders_queue:
+		# Clone and sort the recipe from the order for comparison
+		var sorted_coffee_order_recipe = coffee_order["recipe"].duplicate()
+		sorted_coffee_order_recipe.sort()
+		
+		if sorted_coffee_order_recipe == sorted_current_recipe:
+			serve_order(coffee_order)
+			return
+
+	print("No matching order for current recipe.")
+
+
+func _on_clear_recipe_pressed():
+	current_recipe.clear()
+	print("Recipe cleared. You can start a new coffee.")
 
 func update_customer_satisfaction(coffee_order, delta):
 	# Decrease satisfaction over time and handle unsatisfied customers
@@ -90,8 +153,6 @@ func update_customer_satisfaction(coffee_order, delta):
 		customer_satisfaction[order_name] -= delta * satisfaction_decrease_rate
 		if customer_satisfaction[order_name] <= 0:
 			handle_unsatisfied_customer(coffee_order)
-
-
 
 
 func handle_unsatisfied_customer(coffee_order):
@@ -174,14 +235,27 @@ func check_order_match():
 			break
 
 func serve_order(coffee_order):
-	# Check if the recipe matches and serve the order
 	if coffee_order["recipe"] == current_recipe:
 		print("Order served successfully:", coffee_order["type"])
-		# Add rewards like currency or points
-		currency += 10  # Example reward, adjust as needed
+		currency += 10  # Adjust rewards as needed
+		current_recipe.clear()
+		orders_queue.erase(coffee_order)
+		update_orders_display()
+		
+		# Check if all orders are completed
+		if orders_queue.size() == 0:  # Corrected line
+			progress_to_next_level()
 	else:
 		print("Incorrect order, try again")
 		# Implement penalties for incorrect orders here
+
+func progress_to_next_level():
+	print("All orders completed. Progressing to next level!")
+	current_level += 1
+	prepare_next_coffee()  # Prepare coffee orders for the new level
+	initialize_GUI_elements()  # Update the GUI for the new level, including ingredient buttons
+	update_GUI()
+
 
 func update_orders_display():
 	var orders_text = "Orders:\n"
