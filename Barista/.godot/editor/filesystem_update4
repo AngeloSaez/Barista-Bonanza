@@ -1,3 +1,4 @@
 res://CoffeeMaking.tscn
 res://TitleScreen/NewGame.gd
+res://TitleScreen/TitleScreen.tscn
 res://Levels/Level1.tscn
