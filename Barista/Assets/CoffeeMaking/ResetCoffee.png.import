@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7fc5oon6p7dn"
-path="res://.godot/imported/ResetButton.png-0cfa6f8a0c3d56b1105421dee3fa8246.ctex"
+uid="uid://7qu4sxaj88ub"
+path="res://.godot/imported/ResetCoffee.png-bf55fe322c81f23638b439a1d0ceea29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Buttons/ResetButton.png"
-dest_files=["res://.godot/imported/ResetButton.png-0cfa6f8a0c3d56b1105421dee3fa8246.ctex"]
+source_file="res://Assets/CoffeeMaking/ResetCoffee.png"
+dest_files=["res://.godot/imported/ResetCoffee.png-bf55fe322c81f23638b439a1d0ceea29.ctex"]
 
 [params]
 
