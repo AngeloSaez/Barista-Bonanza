@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708365454
+::res://::1708403481
 CoffeeMaking.gd::GDScript::-1::1708121930::0::1::::<>Node2D<>::
 CoffeeMaking.tscn::PackedScene::4208709664420298267::1708365317::0::1::::<><>::uid://dj1kl61d4ldhw::::res://Assets/CoffeeMaking/CoffeeMakingBackground.png<>res://CoffeeMaking.gd<>uid://b8chosl2ue5s3::::res://Assets/CoffeeMaking/EspressoMachine.png<>uid://dfuvgmjk3skcc::::res://Assets/Buttons/MenuIconRemovedBackground.png<>res://Levels/Button.gd
 icon.svg::CompressedTexture2D::7675732505538084129::1708121841::1708122006::1::::<><>::
@@ -89,9 +89,9 @@ Shop.jpg::CompressedTexture2D::6138187284386318356::1708121841::1708121841::1:::
 Chemex.png::CompressedTexture2D::509980736917085678::1708121930::1708121930::1::::<><>::
 ChemexPourOver.png::CompressedTexture2D::6327358151600780631::1708121841::1708121841::1::::<><>::
 Kettle.png::CompressedTexture2D::1950082002432261695::1708121930::1708121930::1::::<><>::
-::res://Levels/::1708365318
+::res://Levels/::1708366004
 Button.gd::GDScript::-1::1708121930::0::1::::<>Button<>::
-Level1.tscn::PackedScene::6734753654551886564::1708365318::0::1::::<><>::uid://of1mocbcy37u::::res://Assets/CoffeeShop/Counter.jpg<>uid://21vth6csf5lj::::res://Assets/PourOver/Kettle.png<>uid://hjbkqkubuyoc::::res://Assets/PourOver/Chemex.png<>uid://dfuvgmjk3skcc::::res://Assets/Buttons/MenuIconRemovedBackground.png<>res://Levels/Button.gd<>uid://dciaeac2ttksx::::res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png<>res://Levels/StartButton.gd
+Level1.tscn::PackedScene::6734753654551886564::1708366004::0::1::::<><>::uid://of1mocbcy37u::::res://Assets/CoffeeShop/Counter.jpg<>uid://21vth6csf5lj::::res://Assets/PourOver/Kettle.png<>uid://hjbkqkubuyoc::::res://Assets/PourOver/Chemex.png<>uid://dfuvgmjk3skcc::::res://Assets/Buttons/MenuIconRemovedBackground.png<>res://Levels/Button.gd<>uid://dciaeac2ttksx::::res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png<>res://Levels/StartButton.gd
 StartButton.gd::GDScript::-1::1708121930::0::1::::<>Button<>::
 ::res://TitleScreen/::1708365454
 NewGame.gd::GDScript::-1::1708364061::0::1::::<>Button<>::

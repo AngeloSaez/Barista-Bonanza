@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://of1mocbcy37u" path="res://Assets/CoffeeShop/Counter.jpg" id="1_c56c4"]
 [ext_resource type="Texture2D" uid="uid://21vth6csf5lj" path="res://Assets/PourOver/Kettle.png" id="2_vb5d8"]
 [ext_resource type="Texture2D" uid="uid://hjbkqkubuyoc" path="res://Assets/PourOver/Chemex.png" id="3_11ih4"]
-[ext_resource type="Texture2D" uid="uid://dfuvgmjk3skcc" path="res://Assets/Buttons/MenuIconRemovedBackground.png" id="4_e8kak"]
+[ext_resource type="Texture2D" uid="uid://iulyfg76hwhu" path="res://Assets/Buttons/Menu.png" id="4_56jca"]
 [ext_resource type="Script" path="res://Levels/Button.gd" id="5_u8dnv"]
 [ext_resource type="Texture2D" uid="uid://dciaeac2ttksx" path="res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png" id="6_mmf6m"]
 [ext_resource type="Script" path="res://Levels/StartButton.gd" id="7_3yhaj"]
@@ -38,10 +38,10 @@ metadata/_edit_lock_ = true
 [node name="Menu" type="Button" parent="."]
 offset_left = -11.0
 offset_top = -1.0
-offset_right = 609.0
-offset_bottom = 415.0
+offset_right = 1286.0
+offset_bottom = 737.0
 scale = Vector2(0.179657, 0.195093)
-icon = ExtResource("4_e8kak")
+icon = ExtResource("4_56jca")
 flat = true
 expand_icon = true
 script = ExtResource("5_u8dnv")
