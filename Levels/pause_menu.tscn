@@ -1,0 +1,65 @@
+[gd_scene load_steps=4 format=3 uid="uid://bojabgt8soouy"]
+
+[ext_resource type="Shader" path="res://pause_menu.gdshader" id="1_5xeer"]
+[ext_resource type="Script" path="res://pause_menu.gd" id="1_i5jpu"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jrbqg"]
+shader = ExtResource("1_5xeer")
+shader_parameter/lod = 1.439
+
+[node name="PauseMenu" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 70.0
+offset_top = 18.0
+offset_right = 70.0
+offset_bottom = 18.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i5jpu")
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 0
+offset_right = 119.0
+offset_bottom = 171.0
+
+[node name="ColorRect" type="ColorRect" parent="PanelContainer"]
+material = SubResource("ShaderMaterial_jrbqg")
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+layout_mode = 2
+
+[node name="Resume" type="Button" parent="PanelContainer/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+text = "Resume"
+
+[node name="Restart" type="Button" parent="PanelContainer/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+text = "Restart"
+
+[node name="Settings" type="Button" parent="PanelContainer/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+text = "Settings"
+
+[node name="Level Select" type="Button" parent="PanelContainer/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+text = "Level Select"
+
+[node name="Quit" type="Button" parent="PanelContainer/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+text = "Quit"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[connection signal="pressed" from="PanelContainer/VBoxContainer/Resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/Restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="PanelContainer/VBoxContainer/Quit" to="." method="_on_quit_pressed"]

@@ -1,0 +1,6 @@
+res://Levels/Level1.tscn
+res://NewGame.gd
+res://pause_menu.gdshader
+res://start_menu.tscn
+res://Levels/pause_menu.tscn
+res://pause_menu.gd
