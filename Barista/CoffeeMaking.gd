@@ -106,8 +106,10 @@ func initialize_GUI_elements():
 	# Additional setup for "Serve Order" and "Clear Recipe" buttons...
 	# Create and setup "Serve Order" button
 	var serve_order_button = Button.new()
-	serve_order_button.text = "Serve Order"
-	serve_order_button.position = Vector2(10, get_viewport_rect().size.y - 200)  # Adjust position as needed
+	var serve_texture = preload("res://Assets/Buttons/ServeCoffeeButton.png")
+	serve_order_button.icon = serve_texture
+	serve_order_button.text = ""
+	serve_order_button.position = Vector2(10, get_viewport_rect().size.y - 300)  # Adjust position as needed
 	serve_order_button.connect("pressed", self._on_serve_order_pressed)
 	add_child(serve_order_button)
 

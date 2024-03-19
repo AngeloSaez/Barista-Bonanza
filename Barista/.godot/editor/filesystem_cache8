@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710881538
-CoffeeMaking.gd::GDScript::-1::1710881538::0::1::::<>Node2D<>::
-CoffeeMaking.tscn::PackedScene::4208709664420298267::1710881538::0::1::::<><>::uid://dj1kl61d4ldhw::::res://Assets/CoffeeMaking/CoffeeMakingBackground.png<>res://CoffeeMaking.gd<>uid://b8chosl2ue5s3::::res://Assets/CoffeeMaking/EspressoMachine.png<>uid://bqhbhj2d5lnj1::::res://Assets/Buttons/NewMenu.png<>res://Levels/Button.gd
+::res://::1710881879
+CoffeeMaking.gd::GDScript::-1::1710881879::0::1::::<>Node2D<>::
+CoffeeMaking.tscn::PackedScene::4208709664420298267::1710881879::0::1::::<><>::uid://dj1kl61d4ldhw::::res://Assets/CoffeeMaking/CoffeeMakingBackground.png<>res://CoffeeMaking.gd<>uid://b8chosl2ue5s3::::res://Assets/CoffeeMaking/EspressoMachine.png<>uid://bqhbhj2d5lnj1::::res://Assets/Buttons/NewMenu.png<>res://Levels/Button.gd
 icon.svg::CompressedTexture2D::7675732505538084129::1708125441::1708125606::1::::<><>::
 ::res://Assets/::1708471248
-::res://Assets/Buttons/::1710881675
+::res://Assets/Buttons/::1710884416
 ContinueSaveButton.png::CompressedTexture2D::4093824841963818321::1708125530::1708125530::1::::<><>::
 Menu.png::CompressedTexture2D::603509323540841218::1708369041::1708369055::1::::<><>::
 MenuIconRemovedBackground.png::CompressedTexture2D::7552780240638117950::1708125530::1708125530::1::::<><>::
@@ -13,6 +13,7 @@ NewGameButton.png::CompressedTexture2D::8830975634732724000::1708125530::1708125
 NewMenu.png::CompressedTexture2D::3523966558326852952::1708472276::1708472276::1::::<><>::
 ResetCoffee.png::CompressedTexture2D::3197346210089177163::1710878051::1710878244::1::::<><>::
 ResetCoffeeButton.png::CompressedTexture2D::6662077938790489549::1710881675::1710881675::1::::<><>::
+ServeCoffeeButton.png::CompressedTexture2D::1097739569849704638::1710884416::1710884417::1::::<><>::
 ::res://Assets/CoffeeMaking/::1708471249
 BBScoreBoard.png::CompressedTexture2D::1016631222725104775::1708050102::1708126019::1::::<><>::
 CoffeeMakingBackground.png::CompressedTexture2D::7845263947652032664::1708125530::1708125530::1::::<><>::
@@ -92,10 +93,10 @@ Shop.jpg::CompressedTexture2D::6138187284386318356::1708125441::1708125441::1:::
 Chemex.png::CompressedTexture2D::509980736917085678::1708125530::1708125530::1::::<><>::
 ChemexPourOver.png::CompressedTexture2D::6327358151600780631::1708125441::1708125441::1::::<><>::
 Kettle.png::CompressedTexture2D::1950082002432261695::1708125530::1708125530::1::::<><>::
-::res://Levels/::1710881510
+::res://Levels/::1710881725
 Button.gd::GDScript::-1::1708125530::0::1::::<>Button<>::
-Level1.tscn::PackedScene::6734753654551886564::1710881510::0::1::::<><>::uid://of1mocbcy37u::::res://Assets/CoffeeShop/Counter.jpg<>uid://21vth6csf5lj::::res://Assets/PourOver/Kettle.png<>uid://hjbkqkubuyoc::::res://Assets/PourOver/Chemex.png<>uid://iulyfg76hwhu::::res://Assets/Buttons/Menu.png<>res://Levels/Button.gd<>uid://dciaeac2ttksx::::res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png<>res://Levels/StartButton.gd
+Level1.tscn::PackedScene::6734753654551886564::1710881725::0::1::::<><>::uid://of1mocbcy37u::::res://Assets/CoffeeShop/Counter.jpg<>uid://21vth6csf5lj::::res://Assets/PourOver/Kettle.png<>uid://hjbkqkubuyoc::::res://Assets/PourOver/Chemex.png<>uid://iulyfg76hwhu::::res://Assets/Buttons/Menu.png<>res://Levels/Button.gd<>uid://dciaeac2ttksx::::res://Assets/CoffeeMaking/EspressoMachineRemovedBackground.png<>res://Levels/StartButton.gd
 StartButton.gd::GDScript::-1::1708125530::0::1::::<>Button<>::
-::res://TitleScreen/::1710881510
+::res://TitleScreen/::1710881725
 NewGame.gd::GDScript::-1::1710877673::0::1::::<>Button<>::
-TitleScreen.tscn::PackedScene::6944802434241600698::1710881510::0::1::::<><>::res://TitleScreen/NewGame.gd<>uid://dx2144r4usbdg::::res://Assets/Buttons/NewGameButton.png<>uid://c1e826puusovi::::res://Assets/DownloadedAssets/Clouds/Clouds 5/1.png<>uid://bylcxx1e0u3i8::::res://Assets/Buttons/ContinueSaveButton.png<>uid://co30v32vs7pla::::res://Assets/CoffeeShop/3DCoffeeShop.png<>uid://salyiohohg76::::res://Assets/DownloadedAssets/Clouds/Clouds 5/4.png<>uid://do1xdy6onobp6::::res://Assets/DownloadedAssets/Clouds/Clouds 5/5.png
+TitleScreen.tscn::PackedScene::6944802434241600698::1710881725::0::1::::<><>::res://TitleScreen/NewGame.gd<>uid://dx2144r4usbdg::::res://Assets/Buttons/NewGameButton.png<>uid://c1e826puusovi::::res://Assets/DownloadedAssets/Clouds/Clouds 5/1.png<>uid://bylcxx1e0u3i8::::res://Assets/Buttons/ContinueSaveButton.png<>uid://co30v32vs7pla::::res://Assets/CoffeeShop/3DCoffeeShop.png<>uid://salyiohohg76::::res://Assets/DownloadedAssets/Clouds/Clouds 5/4.png<>uid://do1xdy6onobp6::::res://Assets/DownloadedAssets/Clouds/Clouds 5/5.png
