@@ -113,8 +113,10 @@ func initialize_GUI_elements():
 
 	# Create and setup "Clear Recipe" button
 	var clear_recipe_button = Button.new()
-	clear_recipe_button.text = "Restart Coffee"
-	clear_recipe_button.position = Vector2(200, get_viewport_rect().size.y - 200)  # Adjust position as needed
+	var texture = preload("res://Assets/Buttons/ResetCoffeeButton.png")  # Load your icon texture
+	clear_recipe_button.icon = texture  # Set the texture for the button icon
+	clear_recipe_button.text = ""
+	clear_recipe_button.position = Vector2(200, get_viewport_rect().size.y - 300)  # Adjust position as needed
 	clear_recipe_button.connect("pressed", self._on_clear_recipe_pressed)
 	add_child(clear_recipe_button)
 

@@ -1,5 +1,5 @@
 res://CoffeeMaking.tscn
 res://TitleScreen/NewGame.gd
-res://CoffeeMaking.gd
 res://TitleScreen/TitleScreen.tscn
 res://Levels/Level1.tscn
+res://CoffeeMaking.gd
